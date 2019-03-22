@@ -7,7 +7,7 @@ A data science project to make prediction on the revenue of Google Store
 ## Preprocessing
 [Preprocessing 1](https://github.com/ziwei1992/Google-Store-Revenue-Prediction/blob/master/Preprocessing-1.ipynb):
 
-[Preprocessing 2]():
+[Preprocessing 2](https://github.com/ziwei1992/Google-Store-Revenue-Prediction/blob/master/Preprocessing-2.ipynb):
 
 [Preprocessing 3]():
 
