@@ -17,7 +17,8 @@ The dataset was split into training set and test set. While the original data se
 | Test  | 401589  | 12  | 59  |
 
 ## Exploratory Data Analysis
-In this section, we will show our initial data cleanning and Exploratory Data Analysis. Please see the notebook for more details.
+In this section, we will show our initial data cleaning and Exploratory Data Analysis. Please see the notebook for more details.
+
 [Exploratory Data Analysis](https://github.com/ziwei1992/Google-Store-Revenue-Prediction/blob/master/Eda.ipynb): EDA EDA EDA
 
 ## Preprocessing
@@ -38,8 +39,14 @@ In this section, we will show our data preprocessing based on previous Explorato
 
 [ANN]():
 
+## Comparison between models and preprocessing methods
+
 ## Conclusions
 
+Prediction of revenue on customer is extremely important for marketing. In this work, we used the Google Merchandise Store customer dataset to predict revenue per customer. We first analyzed our dataset and did the EDA throughly. From the EDA, we noticed several challenges, like missing value, categorical data with too many levels. We also acquired the idea of how to reduce the data dimension in the preprocessing from EDA. Preprocessing enabled us to obtain a clean data, and allow us to vary the number of selected feature to compare how model performance depend on feature selection. Multiple algorithm were used to train the model, including LR, Lasso, Ridge, kNN, RF, GBM, ANN, DNN, Ada Boost Regression and ensemble models. We compared the performance of different models and found Ada Boost Regression has the best performance for this dataset. We also explored how feature selection can affect our models (LR, RF, GBM). 25 features selected by feature importance of GBM has the best performance, better than more or less features, and better than the features selected by PCA.
+
+### Acknowledgements:
+Some data in "Comparison between models" came from my teammate in this Kaggle competition: Wentao Yu and Fatemeh Amrollahi. I would like to thank them for their contribution.
 
 
 
