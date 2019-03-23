@@ -13,7 +13,7 @@ The dataset was split into training set and test set. (see Table \ref{table:Trai
 There are also some missing values for some features. The distribution of the missing value is listed in this table:
 
 | Dataset  | Samples | Features (original) | Features (converting json) |
-| ------------- | ------------- |
+| ------------- | ------------- | ------------- | ------------- |
 | Training  | 1708337  | 12  | 59  |
 | Test  | 401589  | 12  | 59  |
 
