@@ -9,8 +9,7 @@ can potentially lead to more sales. "Google Analytics Customer Revenue Predictio
 Many kernels are available on Kaggle associated with this competition. Most kernels illustrate the procedure of converting json columns and extensive contents on EDA. Among the machine learning models applied in these kernels, GBM is a very popular one, implemented by the lightGBM package. However, few kernels compare the effect of different preprocessing strategy and different models. We, therefore, studied this project more systematically and provided more insights by comparing different preprocessing methods and algorithm.
 
 ## Overview of Dataset
-The dataset was split into training set and test set. (see Table \ref{table:TrainTest}) While the original data set only contains 12 features, we discovered four of them are json type data, which contains some sub-columns. 60 features presented after flatting json colums.
-There are also some missing values for some features. The distribution of the missing value is listed in this table:
+The dataset was split into training set and test set. While the original data set only contains 12 features, we discovered four of them are json type data, which contains some sub-columns. 60 features presented after flatting json colums (see the table below). There are also some missing values for some features. Many features are catergorical values. 
 
 | Dataset  | Samples | Features (original) | Features (converting json) |
 | ------------- | ------------- | ------------- | ------------- |
