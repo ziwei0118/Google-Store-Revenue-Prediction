@@ -2,7 +2,7 @@
 This work describes our approach and results on a Kaggle competition "Google Analytics Customer Revenue Prediction" by exploring the performance of different existing machine learning algorithms. Multiple machine learning models is built up, after preprocessing and feature engineering of the original data set. Model evaluation and assessment is illustrated in order to select the model as well as the corresponding hyperparameters. The best model and comparison of different models, and the preprocessing method is discussed.
 
 ### Table of Contents
-**[Introduction](## Introduction)**<br>
+**[Introduction](# Introduction)**<br>
 **[Overview of Dataset](## Overview of Dataset)**<br>
 **[General workflow](## General workflow)**<br>
 **[Exploratory Data Analysis](## Exploratory Data Analysis)**<br>
