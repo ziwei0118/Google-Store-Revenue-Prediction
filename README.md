@@ -51,7 +51,7 @@ In this section, we will show our data preprocessing based on previous Explorato
 
 [LGBM]()
 
-[ANN]()
+[ANN (drop out;Adam)]()
 
 ## Comparison between models/preprocessing methods
 
@@ -60,11 +60,11 @@ Performance of different models:
 | Model  | Rank | RMSE (training) | RMSE (validation) | RMSE (test) | 
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Ada Boost Regression  |   1            |   1.0832    |  1.3371                    | 1.1807   |
-| DNN (drop out;Adam) |  2    |  1.2976	    |  1.4262	    	      | 1.3897     |
+| ANN (drop out;Adam) |  2    |  1.2976	    |  1.4262	    	      | 1.3897     |
 | GBM         |  3                   |  1.3977	    |  1.5036	    	      | 1.4229    |
 | RF            |  4                   |  1.4074	    |  1.5132	    	      | 1.4309    |
 | kNN+LR   |  5                    |  1.6155	    |  1.6254	    	      | 1.4687     |
-| DNN (drop out)       |  6     |  1.4521	    |  1.5136    	              | 1.4912     |
+| ANN (drop out)       |  6     |  1.4521	    |  1.5136    	              | 1.4912     |
 | kNN         |  7                    |  1.6383	    |  1.6444	    	      | 1.4984     |
 | ANN          |  8                   |  1.4211	    |  1.5865	    	      | 1.5135     |
 | LR            |  9                    |  1.7073	    |  1.7176	              | 1.5533     |
