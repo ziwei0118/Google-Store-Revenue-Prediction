@@ -45,7 +45,7 @@ In this section, we will show our data preprocessing based on previous Explorato
 [Preprocessing 3](https://github.com/ziwei1992/Google-Store-Revenue-Prediction/blob/master/Preprocessing-3.ipynb): We selected the most important features based on PCA after preprocessing method described in the first notebook.
 
 ## Machine Learning Models
-[Linear Regression/Ridge/Lasso]():
+[Linear Regression/Ridge/Lasso](https://github.com/ziwei1992/Google-Store-Revenue-Prediction/blob/master/Linear.ipynb):
 
 [Random Forest]():
 
