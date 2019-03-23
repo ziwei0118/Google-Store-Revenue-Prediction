@@ -16,6 +16,9 @@ The dataset was split into training set and test set. While the original data se
 | Training  | 1708337  | 12  | 59  |
 | Test  | 401589  | 12  | 59  |
 
+## General workflow
+The following steps are performed to explory and make prediction on this dataset: Data cleaning, Exploratory Data Analysis, Preprocessing, train machine learning models, deploy the best model.
+
 ## Exploratory Data Analysis
 In this section, we will show our initial data cleaning and Exploratory Data Analysis. Please see the notebook for more details.
 
@@ -39,7 +42,7 @@ In this section, we will show our data preprocessing based on previous Explorato
 
 [ANN]():
 
-## Comparison between models and preprocessing methods
+## Comparison between models/preprocessing methods
 
 ## Conclusions
 
