@@ -19,7 +19,7 @@ The dataset was split into training set and test set. While the original data se
 ## Exploratory Data Analysis
 In this section, we will show our initial data cleaning and Exploratory Data Analysis. Please see the notebook for more details.
 
-[Exploratory Data Analysis](https://github.com/ziwei1992/Google-Store-Revenue-Prediction/blob/master/Eda.ipynb): EDA EDA EDA
+[Exploratory Data Analysis](https://github.com/ziwei1992/Google-Store-Revenue-Prediction/blob/master/Eda.ipynb): This notebook shows our initial data cleaning process and Exploratory Data Analysis.
 
 ## Preprocessing
 In this section, we will show our data preprocessing based on previous Exploratory Data Analysis and important features selected from the models in the next section. Please see the notebooks for more details.
