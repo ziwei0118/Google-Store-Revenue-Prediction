@@ -22,6 +22,7 @@ In this section, we will show our initial data cleanning and Exploratory Data An
 
 ## Preprocessing
 In this section, we will show our data preprocessing based on previous Exploratory Data Analysis and important features selected from the models in the next section. Please see the notebooks for more details.
+
 [Preprocessing 1](https://github.com/ziwei1992/Google-Store-Revenue-Prediction/blob/master/Preprocessing-1.ipynb): This is our initial preprocessing strategy (Impute 0 or 1 to the missing value, encode the categorical features, and merge the levels of catergorical feature. ).
 
 [Preprocessing 2](https://github.com/ziwei1992/Google-Store-Revenue-Prediction/blob/master/Preprocessing-2.ipynb): Based on the feedback from LGBM, we selected the most important features after preprocessing method described in the first notebook.
