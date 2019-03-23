@@ -8,7 +8,7 @@ This work describes our approach and results on a Kaggle competition "Google Ana
 **[Exploratory Data Analysis](#Exploratory-Data-Analysis)**<br>
 **[Preprocessing](#Preprocessing)**<br>
 **[Machine Learning Models](#Machine-Learning-Models)**<br>
-**[Comparison between models/preprocessing methods](#Comparison-between-models/preprocessing-methods)**<br>
+**[Comparison between models/preprocessing methods](#Comparison-between-models-preprocessing-methods)**<br>
 **[Conclusions](#Conclusions)**<br>
 
 ## Introduction
