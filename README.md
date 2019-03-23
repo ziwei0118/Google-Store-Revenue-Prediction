@@ -51,7 +51,7 @@ In this section, we will show our data preprocessing based on previous Explorato
 
 [LGBM]()
 
-[ANN (drop out;Adam)]()
+[ANN (drop out;Adam)](https://github.com/ziwei1992/Google-Store-Revenue-Prediction/blob/master/ANN_DropoutAdam.py)
 
 ## Comparison between models/preprocessing methods
 
