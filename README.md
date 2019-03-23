@@ -10,7 +10,14 @@ Many kernels are available on Kaggle associated with this competition. Most kern
 
 ## Overview of Dataset
 The dataset was split into training set and test set. (see Table \ref{table:TrainTest}) While the original data set only contains 12 features, we discovered four of them are json type data, which contains some sub-columns. 60 features presented after flatting json colums.
-There are also some missing values for some features. The distribution of the missing value is listed in Table
+There are also some missing values for some features. The distribution of the missing value is listed in this table:
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+
 
 ## Exploratory Data Analysis
 [Exploratory Data Analysis](https://github.com/ziwei1992/Google-Store-Revenue-Prediction/blob/master/Eda.ipynb): EDA EDA EDA
