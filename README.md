@@ -49,7 +49,7 @@ In this section, we will show our data preprocessing based on previous Explorato
 
 [Random Forest](https://github.com/ziwei1992/Google-Store-Revenue-Prediction/blob/master/RF.ipynb)
 
-[LGBM]()
+[LGBM](https://www.kaggle.com/guoziwei/cs534-lgbm)
 
 [ANN (drop out;Adam)](https://github.com/ziwei1992/Google-Store-Revenue-Prediction/blob/master/ANN_DropoutAdam.py)
 
