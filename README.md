@@ -28,7 +28,7 @@ The dataset was split into training set and test set. While the original data se
 
 ## General workflow
 The following steps are performed to explory and make prediction on this dataset: Data cleaning, Exploratory Data Analysis, Preprocessing, train machine learning models, deploy the best model.
-![alt text](https://github.com/ziwei1992/Google-Store-Revenue-Prediction/blob/master/workflow-0.png "Logo Title Text 1")
+![alt text](https://github.com/ziwei1992/Google-Store-Revenue-Prediction/blob/master/workflow.png "Logo Title Text 1")
 
 ## Exploratory Data Analysis
 In this section, we will show our initial data cleaning and Exploratory Data Analysis. Please see the notebook for more details.
