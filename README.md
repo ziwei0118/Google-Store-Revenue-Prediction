@@ -17,14 +17,16 @@ The dataset was split into training set and test set. While the original data se
 | Test  | 401589  | 12  | 59  |
 
 ## Exploratory Data Analysis
+In this section, we will show our initial data cleanning and Exploratory Data Analysis. Please see the notebook for more details.
 [Exploratory Data Analysis](https://github.com/ziwei1992/Google-Store-Revenue-Prediction/blob/master/Eda.ipynb): EDA EDA EDA
 
 ## Preprocessing
-[Preprocessing 1](https://github.com/ziwei1992/Google-Store-Revenue-Prediction/blob/master/Preprocessing-1.ipynb):
+In this section, we will show our data preprocessing based on previous Exploratory Data Analysis and important features selected from the models in the next section. Please see the notebooks for more details.
+[Preprocessing 1](https://github.com/ziwei1992/Google-Store-Revenue-Prediction/blob/master/Preprocessing-1.ipynb): This is our initial preprocessing strategy (Impute 0 or 1 to the missing value, encode the categorical features, and merge the levels of catergorical feature. ).
 
-[Preprocessing 2](https://github.com/ziwei1992/Google-Store-Revenue-Prediction/blob/master/Preprocessing-2.ipynb):
+[Preprocessing 2](https://github.com/ziwei1992/Google-Store-Revenue-Prediction/blob/master/Preprocessing-2.ipynb): Based on the feedback from LGBM, we selected the most important features after preprocessing method described in the first notebook.
 
-[Preprocessing 3](https://github.com/ziwei1992/Google-Store-Revenue-Prediction/blob/master/Preprocessing-3.ipynb):
+[Preprocessing 3](https://github.com/ziwei1992/Google-Store-Revenue-Prediction/blob/master/Preprocessing-3.ipynb): We selected the most important features based on PCA after preprocessing method described in the first notebook.
 
 ## Machine Learning Models
 [Linear Regression/Ridge/Lasso]():
