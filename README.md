@@ -1,6 +1,16 @@
 # Google Store Revenue Prediction
 This work describes our approach and results on a Kaggle competition "Google Analytics Customer Revenue Prediction" by exploring the performance of different existing machine learning algorithms. Multiple machine learning models is built up, after preprocessing and feature engineering of the original data set. Model evaluation and assessment is illustrated in order to select the model as well as the corresponding hyperparameters. The best model and comparison of different models, and the preprocessing method is discussed.
 
+### Table of Contents
+**[Introduction](## Introduction)**<br>
+**[Overview of Dataset](## Overview of Dataset)**<br>
+**[General workflow](## General workflow)**<br>
+**[Exploratory Data Analysis](## Exploratory Data Analysis)**<br>
+**[Preprocessing](## Preprocessing)**<br>
+**[Machine Learning Models](## Machine Learning Models)**<br>
+**[Comparison between models/preprocessing methods](## Comparison between models/preprocessing methods)**<br>
+**[Conclusions](## Conclusions)**<br>
+
 ## Introduction
 The 80/20 rule, also known as the Pareto principle, states that roughly 80\% of the effects come from 20\% of the causes for many events.
 In the view of business, the  80/20 rule means most of the sales are produced by only a small percent of customers. Therefore, it would be very important for marketing teams if they can make appropriate investments in promotional strategies by targeting their customers who 
