@@ -47,7 +47,7 @@ In this section, we will show our data preprocessing based on previous Explorato
 ## Machine Learning Models
 [Linear Regression/Ridge/Lasso](https://github.com/ziwei1992/Google-Store-Revenue-Prediction/blob/master/Linear.ipynb)
 
-[Random Forest]()
+[Random Forest](https://github.com/ziwei1992/Google-Store-Revenue-Prediction/blob/master/RF.ipynb)
 
 [LGBM]()
 
