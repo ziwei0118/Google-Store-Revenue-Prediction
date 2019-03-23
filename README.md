@@ -3,12 +3,12 @@ This work describes our approach and results on a Kaggle competition "Google Ana
 
 #### Table of Contents
 **[Introduction](#Introduction)**<br>
-**[Overview of Dataset](#Overview of Dataset)**<br>
-**[General workflow](#General workflow)**<br>
-**[Exploratory Data Analysis](#Exploratory Data Analysis)**<br>
+**[Overview of Dataset](#Overview-of-Dataset)**<br>
+**[General workflow](#General-workflow)**<br>
+**[Exploratory Data Analysis](#Exploratory-Data-Analysis)**<br>
 **[Preprocessing](#Preprocessing)**<br>
-**[Machine Learning Models](#Machine Learning Models)**<br>
-**[Comparison between models/preprocessing methods](#Comparison between models/preprocessing methods)**<br>
+**[Machine Learning Models](#Machine-Learning-Models)**<br>
+**[Comparison between models/preprocessing methods](#Comparison-between-models/preprocessing-methods)**<br>
 **[Conclusions](#Conclusions)**<br>
 
 ## Introduction
