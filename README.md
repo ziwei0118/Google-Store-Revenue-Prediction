@@ -11,8 +11,6 @@ A data science project to make prediction on the revenue of Google Store
 
 [Preprocessing 3](https://github.com/ziwei1992/Google-Store-Revenue-Prediction/blob/master/Preprocessing-3.ipynb):
 
-[Preprocessing 4]():
-
 ## Machine Learning Models
 [Linear Regression/Ridge/Lasso]():
 
