@@ -55,6 +55,24 @@ In this section, we will show our data preprocessing based on previous Explorato
 
 ## Comparison between models/preprocessing methods
 
+| Model  | Rank | RMSE (training) | RMSE (validation) | RMSE (test) | 
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| Ada Boost Regression  |   1            |   1.0832    |  1.3371                    | 1.1807   |
+| DNN (drop out;Adam) |  2    |  1.2976	    |  1.4262	    	      | 1.3897     |
+| GBM         |  3                   |  1.3977	    |  1.5036	    	      | 1.4229    |
+| RF            |  4                   |  1.4074	    |  1.5132	    	      | 1.4309    |
+| kNN+LR   |  5                    |  1.6155	    |  1.6254	    	      | 1.4687     |
+| DNN (drop out)       |  6     |  1.4521	    |  1.5136    	              | 1.4912     |
+| kNN         |  7                    |  1.6383	    |  1.6444	    	      | 1.4984     |
+| ANN          |  8                   |  1.4211	    |  1.5865	    	      | 1.5135     |
+| LR            |  9                    |  1.7073	    |  1.7176	              | 1.5533     |
+|	Lasso       |  9                    |  1.7073	    |  1.7176	              | 1.5533     |
+| Ridge       |  9                    |  1.7073	    |  1.7176	              | 1.5533     |
+
+
+
+
+
 ## Conclusions
 
 Prediction of revenue on customer is extremely important for marketing. In this work, we used the Google Merchandise Store customer dataset to predict revenue per customer. We first analyzed our dataset and did the EDA throughly. From the EDA, we noticed several challenges, like missing value, categorical data with too many levels. We also acquired the idea of how to reduce the data dimension in the preprocessing from EDA. Preprocessing enabled us to obtain a clean data, and allow us to vary the number of selected feature to compare how model performance depend on feature selection. Multiple algorithm were used to train the model, including LR, Lasso, Ridge, kNN, RF, GBM, ANN, DNN, Ada Boost Regression and ensemble models. We compared the performance of different models and found Ada Boost Regression has the best performance for this dataset. We also explored how feature selection can affect our models (LR, RF, GBM). 25 features selected by feature importance of GBM has the best performance, better than more or less features, and better than the features selected by PCA.
