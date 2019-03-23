@@ -55,6 +55,8 @@ In this section, we will show our data preprocessing based on previous Explorato
 
 ## Comparison between models/preprocessing methods
 
+Performance of different models:
+
 | Model  | Rank | RMSE (training) | RMSE (validation) | RMSE (test) | 
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Ada Boost Regression  |   1            |   1.0832    |  1.3371                    | 1.1807   |
@@ -69,8 +71,25 @@ In this section, we will show our data preprocessing based on previous Explorato
 |	Lasso       |  9                    |  1.7073	    |  1.7176	              | 1.5533     |
 | Ridge       |  9                    |  1.7073	    |  1.7176	              | 1.5533     |
 
+Performance based on different feature selection methods:
 
-
+|	Model   |  Selection Method  |  Number of feature  |  RMSE(training)  |  RMSE(validation)  |  RMSE(test) |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+|	LR        |  GBM                      |  31                           |  1.742679	    |  1.558079	              | 1.562712     |
+|	RF        |  GBM                      |  31                           |  1.408370	    |  1.512958	    	      | 1.433606     |
+|     GBM        |  GBM                      |  31                           |  1.397786	    |  1.488359	    	      | 1.427289     |
+  
+ |        LR        |  GBM                      |  25                           |  1.743389	    | 1.557599	              | 1.562446 |    
+|	RF        |  GBM                      |  25                           |  1.407494           |  1.513249	              | 1.430903     |
+|     GBM        |  GBM                      |  25                           |  1.397778	    |  1.503681	              | 1.422985     |
+     
+|         LR        |  GBM                      |  19                           |  1.744122	   |  1.556029	              | 1.560787     
+|	RF        |  GBM                      |  19                           |  1.410080	    |  1.516336	              | 1.431046     |
+|     GBM        |  GBM                      |  19                           |  1.398523	    |  1.511897	             | 1.424022     |
+     
+|         LR        |  PCA                       |  22                           |  1.750864	    |  1.547369	              | 1.733757  | 
+|	RF        |  PCA                       |  22                           |  1.445901	    |  1.563802	              | 1.701182     |
+|     GBM        |  PCA                       |  22                           |  1.434172	    |  1.556228	              | 1.690385     |
 
 
 ## Conclusions
